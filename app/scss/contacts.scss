@@ -1,0 +1,131 @@
+/*320------------------*/
+
+@media (min-width: 320px) {
+  .contacts {
+    background-color: #F3F3F3;
+    padding: 40px 0;
+
+    &__title {
+      margin-bottom: 10px;
+    }
+
+    &__subtitle {
+      margin-bottom: 40px;
+    }
+
+    svg {
+      margin-bottom: 15px;
+    }
+
+    &__info_title {
+      display: block;
+      margin: 10px 0 15px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.1px;
+      color: #252B42;
+    }
+
+    &__info_text {
+      display: block;
+      line-height: 24px;
+      color: $title;
+    }
+
+    &__link {
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    &__info_btn {
+      padding: 5px 10px;
+      border: 1px solid #16697A;
+      border-radius: 3px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: #16697A;
+    }
+  }
+}
+
+/*---426px---*/
+
+@media (min-width: 426px) {
+  .contacts {
+    &__info {
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin: 0 -10px;
+    }
+
+    &__info_item {
+      margin: 0 10px 30px;
+    }
+  }
+}
+
+/*568------------------*/
+
+@media (min-width: 568px) {
+  .contacts {
+    &__text {
+      margin-bottom: 30px;
+    }
+
+    &__info {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+/*768------------------*/
+
+@media (min-width: 768px) {
+  .contacts {
+    &__info {
+      justify-content: space-evenly;
+    }
+
+    &__info_item {
+      cursor: auto;
+
+      &:hover {
+        background-color: $title;
+        transform: scale(1.1);
+
+        .contacts__info_text {
+          color: #ffffff;
+        }
+
+        .contacts__info_title {
+          color: #ffffff;
+        }
+
+        .contacts__info_btn {
+          border: 1px solid #ffffff;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+/*1200------------------*/
+
+@media (min-width: 1200px) {
+  .contacts {
+    &__subtitle {
+      margin-bottom: 80px;
+    }
+
+    &__info {
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+  }
+}

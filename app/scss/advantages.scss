@@ -1,0 +1,28 @@
+/*320------------------*/
+
+@media (min-width: 320px) {
+  .advantages {
+    background-color: #F3F3F3;
+    padding: 25px 0;
+
+    &__title {
+      margin-bottom: 10px;
+    }
+
+    &__subtitle {
+      margin-bottom: 40px;
+    }
+
+    &__info {
+      justify-content: space-between;
+    }
+
+    &__info_item {
+      text-align: center;
+    }
+
+    &__info_title {
+      margin: 10px 0;
+    }
+  }
+}
